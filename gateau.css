@@ -1,0 +1,181 @@
+*{
+    overflow: auto;
+}
+    body
+    {
+        background-color: #8BA1BB;
+        font-family: arial;
+        margin: 0px
+    }
+    
+    h1
+    {
+        font-size:x-large ;
+    }
+
+    .separateur
+    {
+        margin: 0 auto;
+        background-color: rgb(91, 81, 228);
+        height: 2px;
+        width: 50%;
+    }
+
+    .recette
+    {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 7px;
+        border-radius: 10px;
+        margin: auto;
+
+    }
+
+    .desciption
+    {
+        margin: 10px  auto ;
+        margin-bottom: -20px;
+        width: 150px;
+        /* border: solid red 1px; */
+        position: relative;
+    }
+
+    .contenu
+    {
+        background-color: rgb(211, 202, 202);
+        padding: 50px;
+        margin: 0px auto;
+        width: 50%;
+        box-shadow: 0px 0px 10px 10px rgb(28, 4, 85);
+    }
+
+    .indications
+    {
+        position: relative;
+    }
+
+    img
+    {
+        margin: 0 auto;
+        border-radius: 8px;
+        max-width: 100%;
+        
+        display: block;
+    }
+
+    .tabcol
+    {
+        
+        background-color: rgba(14, 1, 1, 0.527);
+        position: absolute;
+        bottom: 36px;
+        width: 100%;
+        
+    }
+
+    table.moe
+    {
+       width: 100%;      
+    }
+
+    th
+    {
+        font-family: monospace bl;
+        /* border: thin solid #6495ed; */
+        padding: 5px;
+        /* background-color: #D0E3FA; */
+        color:white;        
+    }
+
+    td
+    {
+        font-family: sans-serif;
+        /* border: thin solid #6495ed; */
+        padding: 5px;
+        text-align: center;
+        color: white;         
+    }
+
+
+    h1
+    {
+        text-align: center;
+    }
+
+    .mamy
+    {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 350px;
+    }
+
+    .instruction
+    {
+        margin: 0 auto;   
+        width: auto;
+        padding: 0;
+        position: relative;        
+    }
+
+    .ingredients
+    {        
+        width: 30%;
+        display: inline-block;       
+         
+    }
+
+    .preparation
+    {  
+        width: 65%;
+        position:relative;
+        float: right;                
+    }
+
+    .colonne h2
+    {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 3px solid #8BA1BB;
+        padding-bottom: 5px;;
+    }
+    
+    p.info
+    {
+        font-style: italic;
+    }
+
+    span
+    {
+     font-weight:bold ;     
+    }
+    div.produits p
+    {
+        text-align: center;
+        font-size: 14px;
+        border: 1px solid rgb(167, 160, 160);
+        padding: 8px 0 ;
+        margin: 2px;        
+    }
+
+    td.action
+    {
+        text-align: left;
+        color: black;
+    }
+
+   table.modop p.num
+   {
+       background-color: cornflowerblue;
+       text-align: center;
+       font-size: 14px;
+       color: white;
+       padding-top: 4px ;
+       margin: 0px;
+       width: 25px;
+       height:25px;
+       border-radius: 50%;
+       box-sizing: border-box;
+   }
+
